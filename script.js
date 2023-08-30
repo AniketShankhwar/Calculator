@@ -13,7 +13,7 @@ function backSpace() {
 
 function performCalculation() {
     var x = document.getElementById("answer").value;
-    var y = eval(x); // Avoid using eval for security reasons in production
+    var y = eval(x);
     document.getElementById("answer").value = y;
 }
 
