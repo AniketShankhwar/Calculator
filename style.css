@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('Images/background.jpg'); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Add a default font */
+}
+
+table {
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Apply the transparent border */
+    border-radius: 24px;
+    padding: 10px;
+    background-color: rgba(173, 216, 230, 0.5); /* Apply the transparent background color */
+    backdrop-filter: blur(10px); /* Apply the backdrop blur */
+}
+
+td {
+    padding: 10px;
+}
+
+input {
+    padding: 30px 42px;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    font-size: 40px;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.2); /* Apply the transparent background color */
+    backdrop-filter: blur(10px); /* Apply the backdrop blur */
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    background-color: #1e3d5252; /* Apply the transparent purple background */
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    backdrop-filter: blur(5px); /* Apply the backdrop blur */
+}
+
+button:active {
+    background-color: #fdb65274;
+}
+
+#plus {
+    height: 220px;
+    border-radius: 20px;
+}
+
+#equal {
+    width: 92%;
+    border-radius: 20px;
+}
